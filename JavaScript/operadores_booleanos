@@ -1,0 +1,30 @@
+// É um operador que como resultado irá trazer verdadeiro ou falso.
+
+// Igualdade ==
+const numero = 10;
+console.log("O número 10 é igual á  20? " + (numero == 20));
+
+// Desigualdade !=
+console.log("O número 10 é diferente de 20? " + (numero != 20));
+
+// Maior que: >
+console.log("O número 10 é maior que 20? " + (numero > 20));
+// Menor que: <
+console.log("O número 10 é menor que 20? " + (numero < 20));
+// Maior ou Igual: >=
+// Menor ou Igual: <=
+
+
+// Conjunções lógicas
+// AND => &&
+let idade = 26
+let tenhoCnh = true
+const podeDirigir = idade >= 18 && tenhoCnh === true 
+
+console.log("Posso dirigir ? ", podeDirigir);
+
+// OR => | 
+
+idade = 40
+const votoFacul = idade < 18 || idade >= 65
+console.log('Posso votar: ', votoFacul);
