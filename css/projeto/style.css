@@ -18,8 +18,8 @@ aside h1 {
    
 }
 
-aside h1 span {
-   color: #e77b09;
+aside h1 span, main h2 span  {
+    color: #e77b09;
 }
 #img {
 
@@ -35,3 +35,4 @@ main h2 {
     font-size: 3.6rem;
     font-weight: 500;
 }
+
