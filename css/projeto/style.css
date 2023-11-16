@@ -26,6 +26,8 @@ main {
 
 aside{
     grid-area: hero;
+    align-items: center;
+    justify-content: center;
 }
 
 .content {
@@ -44,8 +46,8 @@ aside h1 span, main h2 span  {
 }
 #img {
     border-radius: 2.0rem;
-    width: 45rem;
-    height: 45rem;
+    width: 28rem;
+    height: 25rem;
 }
 main {
     width: 60rem;
