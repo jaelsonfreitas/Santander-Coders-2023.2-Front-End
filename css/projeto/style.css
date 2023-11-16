@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto';
+}
+
+:root{
+    font-size: 62.5%;
+}
+aside h1 {
+    font-size: 64px;
+    font-weight: 75px;
+    letter-spacing: 0em;
+    color: #35bad2;
+   
+}
+
+aside h1 span {
+   color: #e77b09;
+}
+#img {
+
+}
+main {
+    width: 60rem;
+    height: 52remx;
+    border: 0.1rem solid #7c7c7c;
+}
+
+main h2 {
+    max-width: 43rem;
+    font-size: 3.6rem;
+    font-weight: 500;
+}
